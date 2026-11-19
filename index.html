@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krillion Update: the rare-answer dive, remixed</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ocean" aria-hidden="true"><div class="bubbles"></div></div>
+
+  <main id="app">
+    <!-- HOME -->
+    <section id="home" class="screen active">
+      <h1 class="logo">Krill<span>ion</span><small>update</small></h1>
+      <p class="tagline">Seven prompts. Name the answer nobody else thinks of. The rarer it is, the deeper you sink.</p>
+
+      <div class="card">
+        <h2>Pick your pace</h2>
+        <div class="pace" role="radiogroup" aria-label="Timer mode">
+          <button data-pace="25" class="pill">⏱ Classic · 25s</button>
+          <button data-pace="45" class="pill">🌊 Chill · 45s</button>
+          <button data-pace="0"  class="pill">🧘 Zen · no timer</button>
+        </div>
+        <p class="hint">Only Classic daily dives count toward your streak, so streaks stay fair.</p>
+      </div>
+
+      <div class="actions">
+        <button id="btn-daily" class="big">🦐 Daily Dive</button>
+        <button id="btn-unlimited" class="big ghost">♾ Unlimited</button>
+      </div>
+
+      <div class="card stats" id="stats"></div>
+      <button id="btn-changes" class="link">What's changed vs. the original? →</button>
+    </section>
+
+    <!-- PLAY -->
+    <section id="play" class="screen">
+      <header class="hud">
+        <div class="progress" id="progress"></div>
+        <div class="score">Depth <b id="hud-depth">0 m</b></div>
+      </header>
+
+      <div class="stage">
+        <div class="gauge" aria-hidden="true">
+          <div class="gauge-fill" id="gauge-fill"></div>
+          <div class="krill" id="krill">🦐</div>
+        </div>
+
+        <div class="question">
+          <p class="qnum" id="qnum"></p>
+          <h2 id="prompt-text"></h2>
+
+          <div class="timer" id="timer">
+            <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="19" class="track"/><circle cx="22" cy="22" r="19" class="ring" id="ring"/></svg>
+            <span id="timer-text"></span>
+          </div>
+
+          <form id="guess-form" autocomplete="off">
+            <input id="guess" placeholder="Type something rare…" maxlength="60" autocapitalize="off" spellcheck="false" />
+            <button type="submit" id="btn-dive">Dive</button>
+          </form>
+          <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+          <div class="row-btns">
+            <button id="btn-appeal" class="small hidden">🙋 It's valid! Count it for review</button>
+            <button id="btn-skip" class="small ghost">Skip</button>
+          </div>
+
+          <div id="reveal" class="reveal hidden"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results" class="screen">
+      <h2 class="end-title">You reached</h2>
+      <p class="end-depth" id="end-depth"></p>
+      <p class="end-zone" id="end-zone"></p>
+      <p class="end-score" id="end-score"></p>
+      <div class="actions">
+        <button id="btn-share" class="big">📋 Copy result</button>
+        <button id="btn-home" class="big ghost">Back to surface</button>
+      </div>
+      <h3>Post-dive review</h3>
+      <ol id="review" class="review"></ol>
+    </section>
+
+    <!-- CHANGES -->
+    <section id="changes" class="screen">
+      <h2>What players asked for → what this version does</h2>
+      <ul class="changes">
+        <li><b>"The 25-second timer is stressful."</b> Choose Classic 25s, Chill 45s, or Zen with no timer. Only Classic counts for streaks.</li>
+        <li><b>"Autocorrect confirmations eat my clock."</b> The timer pauses for up to 5 seconds while you confirm a spelling fix.</li>
+        <li><b>"How do they expect us to spell something niche?"</b> Typo forgiveness scales with word length, so <i>Rambutn</i> still counts as Rambutan. Short words get no forgiveness, which keeps things fair.</li>
+        <li><b>The "James method" exploit.</b> Fuzzy matching compares your whole guess against whole answers. Typing one word of a name gets you "be more specific", never a free upgrade.</li>
+        <li><b>"Too Clever" feels like a hidden trap.</b> It's explained right when you hit it, with how many divers had the same "rare" idea.</li>
+        <li><b>"My answer was valid but rejected!"</b> A wrong answer doesn't end your turn; try again. If you're sure, flag it for review and it's saved to your appeals list.</li>
+        <li><b>"I want to know what I missed."</b> The post-dive review shows the deepest answers for every prompt.</li>
+      </ul>
+      <button id="btn-back" class="big ghost">← Back</button>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="data.js"></script>
+  <script src="logic.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
