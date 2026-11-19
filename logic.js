@@ -80,6 +80,12 @@ function matchGuess(prompt, guess) {
 
   const tol = allowedTypos(g.length);
   if (tol === 0) return { status: "none" };
+  const typo = typoMatch(answers, g, tol);
+  if (typo) return typo;
+  return phoneticMatch(answers, g);
+}
+
+function typoMatch(answers, g, tol) {
   let best = null, bestD = Infinity, tie = false;
   for (const a of answers) {
     for (const k of a.keys) {
@@ -91,9 +97,40 @@ function matchGuess(prompt, guess) {
       else if (d === bestD && best !== a) tie = true;
     }
   }
-  if (!best) return { status: "none" };
+  if (!best) return null;
   if (tie) return { status: "vague", options: [] };
   return { status: "typo", answer: best };
+}
+
+/**
+ * Sound-alike fallback (Double Metaphone), for niche words people can say but not spell:
+ * "kosmoseratops" -> Kosmoceratops. Same anti-exploit guards as typos, plus:
+ *   - guess must be 5+ letters and within 70–140% of the answer's length,
+ *   - the full phonetic code must match exactly (not a prefix),
+ *   - exactly one answer may match.
+ */
+const dm = (typeof require !== "undefined" ? require("./vendor/double-metaphone.js") : window).doubleMetaphone;
+// First letters that can make the same sound (c/k, ph/f, x/z...).
+const SOUND_GROUPS = ["ckq", "fp", "sz", "cs", "xz", "jg", "iye", "vw", "ou"];
+const sameStartSound = (a, b) => a[0] === b[0] || SOUND_GROUPS.some(s => s.includes(a[0]) && s.includes(b[0]));
+
+function phoneticMatch(answers, g) {
+  if (g.length < 6) return { status: "none" };
+  const flat = g.replace(/ /g, "");
+  const codes = new Set(dm(flat).filter(c => c && c.length >= 4));
+  if (!codes.size) return { status: "none" };
+  const hits = answers.filter(a => a.keys.some(k => {
+    const kf = k.replace(/ /g, "");
+    if (kf.length < 7 || !sameStartSound(flat, kf)) return false;
+    const r = flat.length / kf.length;
+    if (r < 0.75 || r > 1.33) return false;
+    // Sounds alike is not enough on its own: spelling must also be in the neighbourhood.
+    if (levenshtein(flat, kf) > Math.ceil(kf.length * 0.35)) return false;
+    return dm(kf).some(c => codes.has(c));
+  }));
+  if (hits.length === 1) return { status: "typo", answer: hits[0], phonetic: true };
+  if (hits.length > 1) return { status: "vague", options: [] };
+  return { status: "none" };
 }
 
 // Deterministic daily pick: same 7 prompts for everyone on a given date.

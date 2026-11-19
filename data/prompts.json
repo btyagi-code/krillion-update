@@ -1,0 +1,2141 @@
+[
+ {
+  "id": "fruit",
+  "text": "Name a fruit",
+  "norms_category": "fruit",
+  "answers": [
+   {
+    "name": "Apple",
+    "pct": 24
+   },
+   {
+    "name": "Banana",
+    "pct": 18
+   },
+   {
+    "name": "Strawberry",
+    "pct": 9
+   },
+   {
+    "name": "Orange",
+    "pct": 8
+   },
+   {
+    "name": "Mango",
+    "pct": 6
+   },
+   {
+    "name": "Grape",
+    "pct": 5
+   },
+   {
+    "name": "Watermelon",
+    "pct": 4
+   },
+   {
+    "name": "Pineapple",
+    "pct": 4
+   },
+   {
+    "name": "Kiwi",
+    "pct": 3
+   },
+   {
+    "name": "Peach",
+    "pct": 3
+   },
+   {
+    "name": "Dragon fruit",
+    "pct": 2.5,
+    "aliases": [
+     "pitaya",
+     "dragonfruit"
+    ],
+    "clever": true
+   },
+   {
+    "name": "Durian",
+    "pct": 2.2,
+    "clever": true
+   },
+   {
+    "name": "Pomegranate",
+    "pct": 1.5
+   },
+   {
+    "name": "Lychee",
+    "pct": 1.2,
+    "aliases": [
+     "litchi"
+    ]
+   },
+   {
+    "name": "Persimmon",
+    "pct": 0.8
+   },
+   {
+    "name": "Rambutan",
+    "pct": 0.6
+   },
+   {
+    "name": "Jackfruit",
+    "pct": 0.6
+   },
+   {
+    "name": "Quince",
+    "pct": 0.4
+   },
+   {
+    "name": "Feijoa",
+    "pct": 0.15
+   },
+   {
+    "name": "Mangosteen",
+    "pct": 0.3
+   },
+   {
+    "name": "Salak",
+    "pct": 0.08,
+    "aliases": [
+     "snake fruit"
+    ]
+   },
+   {
+    "name": "Medlar",
+    "pct": 0.06
+   },
+   {
+    "name": "Pawpaw",
+    "pct": 0.1
+   },
+   {
+    "name": "Cherimoya",
+    "pct": 0.12,
+    "aliases": [
+     "custard apple"
+    ]
+   },
+   {
+    "name": "Sapodilla",
+    "pct": null
+   },
+   {
+    "name": "Ackee",
+    "pct": null
+   },
+   {
+    "name": "Soursop",
+    "pct": null
+   }
+  ]
+ },
+ {
+  "id": "africa",
+  "text": "Name a country in Africa",
+  "norms_category": null,
+  "answers": [
+   {
+    "name": "Egypt",
+    "pct": 20
+   },
+   {
+    "name": "Nigeria",
+    "pct": 14
+   },
+   {
+    "name": "South Africa",
+    "pct": 13
+   },
+   {
+    "name": "Kenya",
+    "pct": 10
+   },
+   {
+    "name": "Morocco",
+    "pct": 6
+   },
+   {
+    "name": "Ethiopia",
+    "pct": 5
+   },
+   {
+    "name": "Ghana",
+    "pct": 5
+   },
+   {
+    "name": "Madagascar",
+    "pct": 4,
+    "clever": true
+   },
+   {
+    "name": "Somalia",
+    "pct": 3
+   },
+   {
+    "name": "Algeria",
+    "pct": 2.5
+   },
+   {
+    "name": "Tanzania",
+    "pct": 2.5
+   },
+   {
+    "name": "Uganda",
+    "pct": 2
+   },
+   {
+    "name": "Senegal",
+    "pct": 1.5
+   },
+   {
+    "name": "Namibia",
+    "pct": 1.2
+   },
+   {
+    "name": "Botswana",
+    "pct": 1
+   },
+   {
+    "name": "Rwanda",
+    "pct": 1
+   },
+   {
+    "name": "Mali",
+    "pct": 0.9
+   },
+   {
+    "name": "Chad",
+    "pct": 0.7
+   },
+   {
+    "name": "Eritrea",
+    "pct": 0.5
+   },
+   {
+    "name": "Malawi",
+    "pct": 0.5
+   },
+   {
+    "name": "Burkina Faso",
+    "pct": 0.4
+   },
+   {
+    "name": "Djibouti",
+    "pct": 0.3
+   },
+   {
+    "name": "Lesotho",
+    "pct": 0.25
+   },
+   {
+    "name": "Eswatini",
+    "pct": 0.15,
+    "aliases": [
+     "swaziland"
+    ]
+   },
+   {
+    "name": "Comoros",
+    "pct": 0.08
+   },
+   {
+    "name": "Sao Tome and Principe",
+    "pct": 0.05,
+    "aliases": [
+     "sao tome"
+    ]
+   },
+   {
+    "name": "Cabo Verde",
+    "pct": 0.1,
+    "aliases": [
+     "cape verde"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dog",
+  "text": "Name a dog breed",
+  "norms_category": "dog breed",
+  "answers": [
+   {
+    "name": "Golden Retriever",
+    "pct": 18,
+    "aliases": [
+     "golden"
+    ]
+   },
+   {
+    "name": "Labrador",
+    "pct": 16,
+    "aliases": [
+     "lab",
+     "labrador retriever"
+    ]
+   },
+   {
+    "name": "German Shepherd",
+    "pct": 10
+   },
+   {
+    "name": "Poodle",
+    "pct": 8
+   },
+   {
+    "name": "Husky",
+    "pct": 7,
+    "aliases": [
+     "siberian husky"
+    ]
+   },
+   {
+    "name": "Chihuahua",
+    "pct": 6
+   },
+   {
+    "name": "Bulldog",
+    "pct": 5
+   },
+   {
+    "name": "Beagle",
+    "pct": 5
+   },
+   {
+    "name": "Pug",
+    "pct": 4
+   },
+   {
+    "name": "Corgi",
+    "pct": 4
+   },
+   {
+    "name": "Dachshund",
+    "pct": 3
+   },
+   {
+    "name": "Shiba Inu",
+    "pct": 2
+   },
+   {
+    "name": "Pomeranian",
+    "pct": 1.5
+   },
+   {
+    "name": "Great Dane",
+    "pct": 1.5
+   },
+   {
+    "name": "Dalmatian",
+    "pct": 1.3
+   },
+   {
+    "name": "Xoloitzcuintli",
+    "pct": 1.1,
+    "aliases": [
+     "xolo"
+    ],
+    "clever": true
+   },
+   {
+    "name": "Basenji",
+    "pct": 0.6
+   },
+   {
+    "name": "Vizsla",
+    "pct": 0.5
+   },
+   {
+    "name": "Weimaraner",
+    "pct": 0.5
+   },
+   {
+    "name": "Komondor",
+    "pct": 0.3
+   },
+   {
+    "name": "Otterhound",
+    "pct": 0.1
+   },
+   {
+    "name": "Lagotto Romagnolo",
+    "pct": 0.1,
+    "aliases": [
+     "lagotto"
+    ]
+   },
+   {
+    "name": "Bergamasco",
+    "pct": 0.06
+   },
+   {
+    "name": "Norwegian Lundehund",
+    "pct": 0.04,
+    "aliases": [
+     "lundehund"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "space",
+  "text": "Name a planet or moon in our solar system",
+  "norms_category": null,
+  "answers": [
+   {
+    "name": "Mars",
+    "pct": 18
+   },
+   {
+    "name": "Jupiter",
+    "pct": 14
+   },
+   {
+    "name": "Saturn",
+    "pct": 12
+   },
+   {
+    "name": "Earth",
+    "pct": 9
+   },
+   {
+    "name": "Moon",
+    "pct": 7,
+    "aliases": [
+     "the moon",
+     "luna"
+    ]
+   },
+   {
+    "name": "Venus",
+    "pct": 7
+   },
+   {
+    "name": "Neptune",
+    "pct": 6
+   },
+   {
+    "name": "Mercury",
+    "pct": 5
+   },
+   {
+    "name": "Uranus",
+    "pct": 4
+   },
+   {
+    "name": "Pluto",
+    "pct": 3,
+    "clever": true
+   },
+   {
+    "name": "Europa",
+    "pct": 3
+   },
+   {
+    "name": "Titan",
+    "pct": 3
+   },
+   {
+    "name": "Io",
+    "pct": 2
+   },
+   {
+    "name": "Ganymede",
+    "pct": 1.5
+   },
+   {
+    "name": "Callisto",
+    "pct": 0.8
+   },
+   {
+    "name": "Enceladus",
+    "pct": 0.7
+   },
+   {
+    "name": "Phobos",
+    "pct": 0.7
+   },
+   {
+    "name": "Deimos",
+    "pct": 0.4
+   },
+   {
+    "name": "Triton",
+    "pct": 0.5
+   },
+   {
+    "name": "Charon",
+    "pct": 0.4
+   },
+   {
+    "name": "Miranda",
+    "pct": 0.2
+   },
+   {
+    "name": "Hyperion",
+    "pct": 0.15
+   },
+   {
+    "name": "Oberon",
+    "pct": 0.15
+   },
+   {
+    "name": "Iapetus",
+    "pct": 0.1
+   },
+   {
+    "name": "Proteus",
+    "pct": 0.06
+   },
+   {
+    "name": "Amalthea",
+    "pct": 0.04
+   }
+  ]
+ },
+ {
+  "id": "instrument",
+  "text": "Name a musical instrument",
+  "norms_category": "musical instrument",
+  "answers": [
+   {
+    "name": "Guitar",
+    "pct": 22
+   },
+   {
+    "name": "Piano",
+    "pct": 20
+   },
+   {
+    "name": "Drums",
+    "pct": 10,
+    "aliases": [
+     "drum",
+     "drum kit"
+    ]
+   },
+   {
+    "name": "Violin",
+    "pct": 9
+   },
+   {
+    "name": "Flute",
+    "pct": 6
+   },
+   {
+    "name": "Trumpet",
+    "pct": 5
+   },
+   {
+    "name": "Saxophone",
+    "pct": 4,
+    "aliases": [
+     "sax"
+    ]
+   },
+   {
+    "name": "Cello",
+    "pct": 3
+   },
+   {
+    "name": "Clarinet",
+    "pct": 3
+   },
+   {
+    "name": "Ukulele",
+    "pct": 2.5
+   },
+   {
+    "name": "Harp",
+    "pct": 2
+   },
+   {
+    "name": "Triangle",
+    "pct": 2,
+    "clever": true
+   },
+   {
+    "name": "Oboe",
+    "pct": 1.2
+   },
+   {
+    "name": "Banjo",
+    "pct": 1.2
+   },
+   {
+    "name": "Accordion",
+    "pct": 1
+   },
+   {
+    "name": "Bagpipes",
+    "pct": 0.8,
+    "aliases": [
+     "bagpipe"
+    ]
+   },
+   {
+    "name": "Sitar",
+    "pct": 0.6
+   },
+   {
+    "name": "Theremin",
+    "pct": 0.6
+   },
+   {
+    "name": "Didgeridoo",
+    "pct": 0.5
+   },
+   {
+    "name": "Bassoon",
+    "pct": 0.5
+   },
+   {
+    "name": "Hurdy-gurdy",
+    "pct": 0.15,
+    "aliases": [
+     "hurdy gurdy"
+    ]
+   },
+   {
+    "name": "Erhu",
+    "pct": 0.1
+   },
+   {
+    "name": "Ocarina",
+    "pct": 0.3
+   },
+   {
+    "name": "Kalimba",
+    "pct": 0.2
+   },
+   {
+    "name": "Hang drum",
+    "pct": 0.07,
+    "aliases": [
+     "handpan",
+     "hang"
+    ]
+   },
+   {
+    "name": "Crumhorn",
+    "pct": 0.03
+   },
+   {
+    "name": "Glockenspiel",
+    "pct": null
+   },
+   {
+    "name": "Mbira",
+    "pct": null
+   }
+  ]
+ },
+ {
+  "id": "element",
+  "text": "Name a chemical element",
+  "norms_category": "chemical element",
+  "answers": [
+   {
+    "name": "Oxygen",
+    "pct": 20
+   },
+   {
+    "name": "Hydrogen",
+    "pct": 16
+   },
+   {
+    "name": "Carbon",
+    "pct": 10
+   },
+   {
+    "name": "Gold",
+    "pct": 8
+   },
+   {
+    "name": "Helium",
+    "pct": 7
+   },
+   {
+    "name": "Iron",
+    "pct": 6
+   },
+   {
+    "name": "Nitrogen",
+    "pct": 5
+   },
+   {
+    "name": "Sodium",
+    "pct": 3
+   },
+   {
+    "name": "Silver",
+    "pct": 3
+   },
+   {
+    "name": "Uranium",
+    "pct": 2.5
+   },
+   {
+    "name": "Copper",
+    "pct": 2.5
+   },
+   {
+    "name": "Neon",
+    "pct": 2
+   },
+   {
+    "name": "Lithium",
+    "pct": 2
+   },
+   {
+    "name": "Calcium",
+    "pct": 1.8
+   },
+   {
+    "name": "Plutonium",
+    "pct": 1.5
+   },
+   {
+    "name": "Mercury",
+    "pct": 1.2
+   },
+   {
+    "name": "Zinc",
+    "pct": 1
+   },
+   {
+    "name": "Oganesson",
+    "pct": 0.8,
+    "clever": true
+   },
+   {
+    "name": "Bismuth",
+    "pct": 0.6
+   },
+   {
+    "name": "Tungsten",
+    "pct": 0.6
+   },
+   {
+    "name": "Xenon",
+    "pct": 0.5
+   },
+   {
+    "name": "Gallium",
+    "pct": 0.4
+   },
+   {
+    "name": "Promethium",
+    "pct": 0.15
+   },
+   {
+    "name": "Hafnium",
+    "pct": 0.12
+   },
+   {
+    "name": "Praseodymium",
+    "pct": 0.08
+   },
+   {
+    "name": "Ytterbium",
+    "pct": 0.1
+   },
+   {
+    "name": "Thulium",
+    "pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": "vegetable",
+  "text": "Name a vegetable",
+  "norms_category": "vegetable",
+  "answers": [
+   {
+    "name": "Carrot",
+    "pct": 24
+   },
+   {
+    "name": "Broccoli",
+    "pct": 18
+   },
+   {
+    "name": "Potato",
+    "pct": 9
+   },
+   {
+    "name": "Lettuce",
+    "pct": 6
+   },
+   {
+    "name": "Spinach",
+    "pct": 6
+   },
+   {
+    "name": "Onion",
+    "pct": 5
+   },
+   {
+    "name": "Cucumber",
+    "pct": 4
+   },
+   {
+    "name": "Tomato",
+    "pct": 3,
+    "clever": true
+   },
+   {
+    "name": "Celery",
+    "pct": 3
+   },
+   {
+    "name": "Cabbage",
+    "pct": 2.5
+   },
+   {
+    "name": "Pepper",
+    "pct": 2.5,
+    "aliases": [
+     "bell pepper"
+    ]
+   },
+   {
+    "name": "Cauliflower",
+    "pct": 2
+   },
+   {
+    "name": "Zucchini",
+    "pct": 2,
+    "aliases": [
+     "courgette"
+    ]
+   },
+   {
+    "name": "Asparagus",
+    "pct": 1.8
+   },
+   {
+    "name": "Eggplant",
+    "pct": 1.5,
+    "aliases": [
+     "aubergine"
+    ]
+   },
+   {
+    "name": "Kale",
+    "pct": 1.5
+   },
+   {
+    "name": "Artichoke",
+    "pct": 1
+   },
+   {
+    "name": "Okra",
+    "pct": 0.7
+   },
+   {
+    "name": "Kohlrabi",
+    "pct": 0.4
+   },
+   {
+    "name": "Parsnip",
+    "pct": 0.5
+   },
+   {
+    "name": "Jicama",
+    "pct": 0.25
+   },
+   {
+    "name": "Salsify",
+    "pct": 0.07
+   },
+   {
+    "name": "Romanesco",
+    "pct": 0.15
+   },
+   {
+    "name": "Celeriac",
+    "pct": 0.15
+   },
+   {
+    "name": "Fiddlehead",
+    "pct": 0.08,
+    "aliases": [
+     "fiddlehead fern"
+    ]
+   },
+   {
+    "name": "Samphire",
+    "pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": "sea",
+  "text": "Name a sea creature",
+  "norms_category": "sea creature",
+  "answers": [
+   {
+    "name": "Shark",
+    "pct": 18
+   },
+   {
+    "name": "Dolphin",
+    "pct": 14
+   },
+   {
+    "name": "Whale",
+    "pct": 12
+   },
+   {
+    "name": "Octopus",
+    "pct": 9
+   },
+   {
+    "name": "Jellyfish",
+    "pct": 7
+   },
+   {
+    "name": "Starfish",
+    "pct": 5,
+    "aliases": [
+     "sea star"
+    ]
+   },
+   {
+    "name": "Crab",
+    "pct": 5
+   },
+   {
+    "name": "Clownfish",
+    "pct": 3
+   },
+   {
+    "name": "Seahorse",
+    "pct": 3
+   },
+   {
+    "name": "Squid",
+    "pct": 3
+   },
+   {
+    "name": "Turtle",
+    "pct": 2.5,
+    "aliases": [
+     "sea turtle"
+    ]
+   },
+   {
+    "name": "Krill",
+    "pct": 2.5,
+    "clever": true
+   },
+   {
+    "name": "Stingray",
+    "pct": 2
+   },
+   {
+    "name": "Lobster",
+    "pct": 2
+   },
+   {
+    "name": "Anglerfish",
+    "pct": 1.5
+   },
+   {
+    "name": "Manta ray",
+    "pct": 1
+   },
+   {
+    "name": "Narwhal",
+    "pct": 1
+   },
+   {
+    "name": "Axolotl",
+    "pct": 0.6
+   },
+   {
+    "name": "Nudibranch",
+    "pct": 0.4,
+    "aliases": [
+     "sea slug"
+    ]
+   },
+   {
+    "name": "Sea cucumber",
+    "pct": 0.5
+   },
+   {
+    "name": "Blobfish",
+    "pct": 0.6
+   },
+   {
+    "name": "Mantis shrimp",
+    "pct": 0.5
+   },
+   {
+    "name": "Vampire squid",
+    "pct": 0.15
+   },
+   {
+    "name": "Siphonophore",
+    "pct": 0.1
+   },
+   {
+    "name": "Gulper eel",
+    "pct": 0.08
+   },
+   {
+    "name": "Sheephead",
+    "pct": 0.05,
+    "aliases": [
+     "sea donkey",
+     "threebanded sheephead"
+    ]
+   },
+   {
+    "name": "Barreleye",
+    "pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": "eucapital",
+  "text": "Name a capital city in Europe",
+  "norms_category": null,
+  "answers": [
+   {
+    "name": "Paris",
+    "pct": 26
+   },
+   {
+    "name": "London",
+    "pct": 20
+   },
+   {
+    "name": "Berlin",
+    "pct": 10
+   },
+   {
+    "name": "Rome",
+    "pct": 9
+   },
+   {
+    "name": "Madrid",
+    "pct": 7
+   },
+   {
+    "name": "Amsterdam",
+    "pct": 4
+   },
+   {
+    "name": "Vienna",
+    "pct": 3
+   },
+   {
+    "name": "Athens",
+    "pct": 3
+   },
+   {
+    "name": "Lisbon",
+    "pct": 2.5
+   },
+   {
+    "name": "Prague",
+    "pct": 2
+   },
+   {
+    "name": "Dublin",
+    "pct": 2
+   },
+   {
+    "name": "Brussels",
+    "pct": 1.5
+   },
+   {
+    "name": "Budapest",
+    "pct": 1.5
+   },
+   {
+    "name": "Warsaw",
+    "pct": 1.2
+   },
+   {
+    "name": "Stockholm",
+    "pct": 1.2
+   },
+   {
+    "name": "Reykjavik",
+    "pct": 1,
+    "clever": true
+   },
+   {
+    "name": "Oslo",
+    "pct": 1
+   },
+   {
+    "name": "Helsinki",
+    "pct": 0.7
+   },
+   {
+    "name": "Copenhagen",
+    "pct": 0.8
+   },
+   {
+    "name": "Bucharest",
+    "pct": 0.4
+   },
+   {
+    "name": "Ljubljana",
+    "pct": 0.3
+   },
+   {
+    "name": "Bratislava",
+    "pct": 0.3
+   },
+   {
+    "name": "Tallinn",
+    "pct": 0.25
+   },
+   {
+    "name": "Vilnius",
+    "pct": 0.2
+   },
+   {
+    "name": "Riga",
+    "pct": 0.2
+   },
+   {
+    "name": "Valletta",
+    "pct": 0.12
+   },
+   {
+    "name": "Vaduz",
+    "pct": 0.06
+   },
+   {
+    "name": "Andorra la Vella",
+    "pct": 0.05
+   },
+   {
+    "name": "Chisinau",
+    "pct": 0.06
+   }
+  ]
+ },
+ {
+  "id": "boardgame",
+  "text": "Name a board game",
+  "norms_category": "board game",
+  "answers": [
+   {
+    "name": "Monopoly",
+    "pct": 30
+   },
+   {
+    "name": "Chess",
+    "pct": 18
+   },
+   {
+    "name": "Scrabble",
+    "pct": 8
+   },
+   {
+    "name": "Checkers",
+    "pct": 6,
+    "aliases": [
+     "draughts"
+    ]
+   },
+   {
+    "name": "Clue",
+    "pct": 5,
+    "aliases": [
+     "cluedo"
+    ]
+   },
+   {
+    "name": "Risk",
+    "pct": 4
+   },
+   {
+    "name": "Catan",
+    "pct": 4,
+    "aliases": [
+     "settlers of catan"
+    ]
+   },
+   {
+    "name": "Candy Land",
+    "pct": 3
+   },
+   {
+    "name": "Sorry",
+    "pct": 2
+   },
+   {
+    "name": "Battleship",
+    "pct": 2
+   },
+   {
+    "name": "Go",
+    "pct": 1.5
+   },
+   {
+    "name": "Backgammon",
+    "pct": 1.5
+   },
+   {
+    "name": "Ticket to Ride",
+    "pct": 1.5
+   },
+   {
+    "name": "Pandemic",
+    "pct": 1
+   },
+   {
+    "name": "Mahjong",
+    "pct": 1
+   },
+   {
+    "name": "Twilight Imperium",
+    "pct": 0.8,
+    "clever": true
+   },
+   {
+    "name": "Wingspan",
+    "pct": 0.6
+   },
+   {
+    "name": "Mancala",
+    "pct": 0.7
+   },
+   {
+    "name": "Carcassonne",
+    "pct": 0.6
+   },
+   {
+    "name": "Azul",
+    "pct": 0.3
+   },
+   {
+    "name": "Agricola",
+    "pct": 0.15
+   },
+   {
+    "name": "Diplomacy",
+    "pct": 0.2
+   },
+   {
+    "name": "Hnefatafl",
+    "pct": 0.05
+   },
+   {
+    "name": "Senet",
+    "pct": 0.06
+   },
+   {
+    "name": "Brass",
+    "pct": 0.07
+   }
+  ]
+ },
+ {
+  "id": "cheese",
+  "text": "Name a type of cheese",
+  "norms_category": "cheese",
+  "answers": [
+   {
+    "name": "Cheddar",
+    "pct": 28
+   },
+   {
+    "name": "Mozzarella",
+    "pct": 14
+   },
+   {
+    "name": "Swiss",
+    "pct": 7
+   },
+   {
+    "name": "Parmesan",
+    "pct": 7,
+    "aliases": [
+     "parmigiano reggiano"
+    ]
+   },
+   {
+    "name": "Brie",
+    "pct": 6
+   },
+   {
+    "name": "Gouda",
+    "pct": 5
+   },
+   {
+    "name": "Feta",
+    "pct": 4
+   },
+   {
+    "name": "American",
+    "pct": 3
+   },
+   {
+    "name": "Provolone",
+    "pct": 2
+   },
+   {
+    "name": "Blue cheese",
+    "pct": 2,
+    "aliases": [
+     "blue"
+    ]
+   },
+   {
+    "name": "Camembert",
+    "pct": 2
+   },
+   {
+    "name": "Pepper jack",
+    "pct": 1.5
+   },
+   {
+    "name": "Ricotta",
+    "pct": 1.5
+   },
+   {
+    "name": "Gruyere",
+    "pct": 1.2
+   },
+   {
+    "name": "Halloumi",
+    "pct": 1
+   },
+   {
+    "name": "Casu marzu",
+    "pct": 1,
+    "clever": true
+   },
+   {
+    "name": "Manchego",
+    "pct": 0.8
+   },
+   {
+    "name": "Roquefort",
+    "pct": 0.6
+   },
+   {
+    "name": "Stilton",
+    "pct": 0.6
+   },
+   {
+    "name": "Taleggio",
+    "pct": 0.25
+   },
+   {
+    "name": "Raclette",
+    "pct": 0.4
+   },
+   {
+    "name": "Epoisses",
+    "pct": 0.1
+   },
+   {
+    "name": "Limburger",
+    "pct": 0.2
+   },
+   {
+    "name": "Paneer",
+    "pct": 0.5
+   },
+   {
+    "name": "Mimolette",
+    "pct": 0.06
+   },
+   {
+    "name": "Wensleydale",
+    "pct": 0.12
+   },
+   {
+    "name": "Burrata",
+    "pct": null
+   },
+   {
+    "name": "Comte",
+    "pct": null
+   }
+  ]
+ },
+ {
+  "id": "bone",
+  "text": "Name a bone in the human body",
+  "norms_category": null,
+  "answers": [
+   {
+    "name": "Femur",
+    "pct": 28
+   },
+   {
+    "name": "Skull",
+    "pct": 12,
+    "aliases": [
+     "cranium"
+    ]
+   },
+   {
+    "name": "Rib",
+    "pct": 9
+   },
+   {
+    "name": "Tibia",
+    "pct": 6
+   },
+   {
+    "name": "Humerus",
+    "pct": 6
+   },
+   {
+    "name": "Spine",
+    "pct": 4,
+    "aliases": [
+     "vertebra"
+    ]
+   },
+   {
+    "name": "Fibula",
+    "pct": 4
+   },
+   {
+    "name": "Pelvis",
+    "pct": 3
+   },
+   {
+    "name": "Radius",
+    "pct": 3
+   },
+   {
+    "name": "Ulna",
+    "pct": 2.5
+   },
+   {
+    "name": "Clavicle",
+    "pct": 2.5,
+    "aliases": [
+     "collarbone"
+    ]
+   },
+   {
+    "name": "Patella",
+    "pct": 2,
+    "aliases": [
+     "kneecap"
+    ]
+   },
+   {
+    "name": "Stapes",
+    "pct": 2,
+    "aliases": [
+     "stirrup"
+    ],
+    "clever": true
+   },
+   {
+    "name": "Sternum",
+    "pct": 1.5
+   },
+   {
+    "name": "Scapula",
+    "pct": 1.2,
+    "aliases": [
+     "shoulder blade"
+    ]
+   },
+   {
+    "name": "Jaw",
+    "pct": 1,
+    "aliases": [
+     "mandible"
+    ]
+   },
+   {
+    "name": "Coccyx",
+    "pct": 1,
+    "aliases": [
+     "tailbone"
+    ]
+   },
+   {
+    "name": "Hyoid",
+    "pct": 0.3
+   },
+   {
+    "name": "Incus",
+    "pct": 0.3,
+    "aliases": [
+     "anvil"
+    ]
+   },
+   {
+    "name": "Malleus",
+    "pct": 0.3,
+    "aliases": [
+     "hammer"
+    ]
+   },
+   {
+    "name": "Talus",
+    "pct": 0.2
+   },
+   {
+    "name": "Calcaneus",
+    "pct": 0.2,
+    "aliases": [
+     "heel bone"
+    ]
+   },
+   {
+    "name": "Sphenoid",
+    "pct": 0.08
+   },
+   {
+    "name": "Scaphoid",
+    "pct": 0.12
+   },
+   {
+    "name": "Ethmoid",
+    "pct": 0.05
+   },
+   {
+    "name": "Lacrimal",
+    "pct": 0.04,
+    "aliases": [
+     "lacrimal bone"
+    ]
+   },
+   {
+    "name": "Vomer",
+    "pct": 0.03
+   }
+  ]
+ },
+ {
+  "id": "bird",
+  "text": "Name a bird",
+  "norms_category": "bird",
+  "answers": [
+   {
+    "name": "Eagle",
+    "pct": 16
+   },
+   {
+    "name": "Robin",
+    "pct": 10
+   },
+   {
+    "name": "Penguin",
+    "pct": 8
+   },
+   {
+    "name": "Parrot",
+    "pct": 7
+   },
+   {
+    "name": "Owl",
+    "pct": 7
+   },
+   {
+    "name": "Pigeon",
+    "pct": 6
+   },
+   {
+    "name": "Flamingo",
+    "pct": 4
+   },
+   {
+    "name": "Crow",
+    "pct": 4
+   },
+   {
+    "name": "Hummingbird",
+    "pct": 3
+   },
+   {
+    "name": "Cardinal",
+    "pct": 3
+   },
+   {
+    "name": "Blue jay",
+    "pct": 3
+   },
+   {
+    "name": "Peacock",
+    "pct": 3
+   },
+   {
+    "name": "Ostrich",
+    "pct": 2
+   },
+   {
+    "name": "Dodo",
+    "pct": 2,
+    "clever": true
+   },
+   {
+    "name": "Toucan",
+    "pct": 1.5
+   },
+   {
+    "name": "Kiwi",
+    "pct": 1
+   },
+   {
+    "name": "Albatross",
+    "pct": 0.8
+   },
+   {
+    "name": "Pelican",
+    "pct": 1
+   },
+   {
+    "name": "Puffin",
+    "pct": 0.8
+   },
+   {
+    "name": "Kingfisher",
+    "pct": 0.5
+   },
+   {
+    "name": "Cassowary",
+    "pct": 0.5
+   },
+   {
+    "name": "Shoebill",
+    "pct": 0.4
+   },
+   {
+    "name": "Hoatzin",
+    "pct": 0.08
+   },
+   {
+    "name": "Kakapo",
+    "pct": 0.15
+   },
+   {
+    "name": "Potoo",
+    "pct": 0.1
+   },
+   {
+    "name": "Lammergeier",
+    "pct": 0.04,
+    "aliases": [
+     "bearded vulture"
+    ]
+   },
+   {
+    "name": "Wallcreeper",
+    "pct": 0.03
+   },
+   {
+    "name": "Shrike",
+    "pct": null
+   },
+   {
+    "name": "Hoopoe",
+    "pct": null
+   }
+  ]
+ },
+ {
+  "id": "pasta",
+  "text": "Name a pasta shape",
+  "norms_category": null,
+  "answers": [
+   {
+    "name": "Spaghetti",
+    "pct": 30
+   },
+   {
+    "name": "Penne",
+    "pct": 14
+   },
+   {
+    "name": "Macaroni",
+    "pct": 9
+   },
+   {
+    "name": "Fettuccine",
+    "pct": 7
+   },
+   {
+    "name": "Rigatoni",
+    "pct": 5
+   },
+   {
+    "name": "Lasagna",
+    "pct": 5,
+    "aliases": [
+     "lasagne"
+    ]
+   },
+   {
+    "name": "Farfalle",
+    "pct": 4,
+    "aliases": [
+     "bowtie",
+     "bow tie"
+    ]
+   },
+   {
+    "name": "Linguine",
+    "pct": 4
+   },
+   {
+    "name": "Ravioli",
+    "pct": 3
+   },
+   {
+    "name": "Rotini",
+    "pct": 2.5
+   },
+   {
+    "name": "Fusilli",
+    "pct": 2.5
+   },
+   {
+    "name": "Tortellini",
+    "pct": 2
+   },
+   {
+    "name": "Orzo",
+    "pct": 1.5
+   },
+   {
+    "name": "Gnocchi",
+    "pct": 1.5,
+    "clever": true
+   },
+   {
+    "name": "Ziti",
+    "pct": 1.2
+   },
+   {
+    "name": "Orecchiette",
+    "pct": 1
+   },
+   {
+    "name": "Pappardelle",
+    "pct": 0.8
+   },
+   {
+    "name": "Bucatini",
+    "pct": 0.7
+   },
+   {
+    "name": "Cavatappi",
+    "pct": 0.5
+   },
+   {
+    "name": "Conchiglie",
+    "pct": 0.4,
+    "aliases": [
+     "shells"
+    ]
+   },
+   {
+    "name": "Radiatori",
+    "pct": 0.15
+   },
+   {
+    "name": "Strozzapreti",
+    "pct": 0.1
+   },
+   {
+    "name": "Trofie",
+    "pct": 0.08
+   },
+   {
+    "name": "Casarecce",
+    "pct": 0.08
+   },
+   {
+    "name": "Mafaldine",
+    "pct": 0.06
+   },
+   {
+    "name": "Cappelletti",
+    "pct": 0.07
+   }
+  ]
+ },
+ {
+  "id": "dinosaur",
+  "text": "Name a dinosaur",
+  "norms_category": null,
+  "answers": [
+   {
+    "name": "Tyrannosaurus",
+    "pct": 30,
+    "aliases": [
+     "t rex",
+     "trex",
+     "tyrannosaurus rex"
+    ]
+   },
+   {
+    "name": "Triceratops",
+    "pct": 14
+   },
+   {
+    "name": "Velociraptor",
+    "pct": 11,
+    "aliases": [
+     "raptor"
+    ]
+   },
+   {
+    "name": "Stegosaurus",
+    "pct": 9
+   },
+   {
+    "name": "Brachiosaurus",
+    "pct": 6
+   },
+   {
+    "name": "Pterodactyl",
+    "pct": 4,
+    "aliases": [
+     "pteranodon"
+    ],
+    "clever": true
+   },
+   {
+    "name": "Spinosaurus",
+    "pct": 4
+   },
+   {
+    "name": "Ankylosaurus",
+    "pct": 3
+   },
+   {
+    "name": "Diplodocus",
+    "pct": 2.5
+   },
+   {
+    "name": "Brontosaurus",
+    "pct": 2.5
+   },
+   {
+    "name": "Allosaurus",
+    "pct": 1.5
+   },
+   {
+    "name": "Parasaurolophus",
+    "pct": 1.5
+   },
+   {
+    "name": "Iguanodon",
+    "pct": 1
+   },
+   {
+    "name": "Pachycephalosaurus",
+    "pct": 1
+   },
+   {
+    "name": "Dilophosaurus",
+    "pct": 0.8
+   },
+   {
+    "name": "Gallimimus",
+    "pct": 0.5
+   },
+   {
+    "name": "Therizinosaurus",
+    "pct": 0.5
+   },
+   {
+    "name": "Carnotaurus",
+    "pct": 0.4
+   },
+   {
+    "name": "Microraptor",
+    "pct": 0.3
+   },
+   {
+    "name": "Argentinosaurus",
+    "pct": 0.3
+   },
+   {
+    "name": "Amargasaurus",
+    "pct": 0.1
+   },
+   {
+    "name": "Nigersaurus",
+    "pct": 0.08
+   },
+   {
+    "name": "Kosmoceratops",
+    "pct": 0.06
+   },
+   {
+    "name": "Yi qi",
+    "pct": 0.04,
+    "aliases": [
+     "yi"
+    ]
+   },
+   {
+    "name": "Mamenchisaurus",
+    "pct": 0.07
+   }
+  ]
+ },
+ {
+  "id": "gem",
+  "text": "Name a gemstone",
+  "norms_category": "precious stone",
+  "answers": [
+   {
+    "name": "Diamond",
+    "pct": 30
+   },
+   {
+    "name": "Ruby",
+    "pct": 16
+   },
+   {
+    "name": "Emerald",
+    "pct": 12
+   },
+   {
+    "name": "Sapphire",
+    "pct": 10
+   },
+   {
+    "name": "Amethyst",
+    "pct": 6
+   },
+   {
+    "name": "Opal",
+    "pct": 4
+   },
+   {
+    "name": "Topaz",
+    "pct": 4
+   },
+   {
+    "name": "Pearl",
+    "pct": 3,
+    "clever": true
+   },
+   {
+    "name": "Jade",
+    "pct": 3
+   },
+   {
+    "name": "Garnet",
+    "pct": 2
+   },
+   {
+    "name": "Aquamarine",
+    "pct": 2
+   },
+   {
+    "name": "Onyx",
+    "pct": 1.5
+   },
+   {
+    "name": "Turquoise",
+    "pct": 1.5
+   },
+   {
+    "name": "Peridot",
+    "pct": 1.2
+   },
+   {
+    "name": "Citrine",
+    "pct": 1
+   },
+   {
+    "name": "Tanzanite",
+    "pct": 0.7
+   },
+   {
+    "name": "Moonstone",
+    "pct": 0.6
+   },
+   {
+    "name": "Lapis lazuli",
+    "pct": 0.5,
+    "aliases": [
+     "lapis"
+    ]
+   },
+   {
+    "name": "Alexandrite",
+    "pct": 0.4
+   },
+   {
+    "name": "Tourmaline",
+    "pct": 0.5
+   },
+   {
+    "name": "Spinel",
+    "pct": 0.25
+   },
+   {
+    "name": "Painite",
+    "pct": 0.15
+   },
+   {
+    "name": "Benitoite",
+    "pct": 0.06
+   },
+   {
+    "name": "Taaffeite",
+    "pct": 0.04
+   },
+   {
+    "name": "Grandidierite",
+    "pct": 0.03
+   },
+   {
+    "name": "Jeremejevite",
+    "pct": 0.02
+   }
+  ]
+ },
+ {
+  "id": "language",
+  "text": "Name a programming language",
+  "norms_category": null,
+  "answers": [
+   {
+    "name": "Python",
+    "pct": 30
+   },
+   {
+    "name": "JavaScript",
+    "pct": 16,
+    "aliases": [
+     "js"
+    ]
+   },
+   {
+    "name": "Java",
+    "pct": 12
+   },
+   {
+    "name": "C++",
+    "pct": 8,
+    "aliases": [
+     "cpp",
+     "c plus plus"
+    ]
+   },
+   {
+    "name": "C",
+    "pct": 5
+   },
+   {
+    "name": "C#",
+    "pct": 4,
+    "aliases": [
+     "c sharp",
+     "csharp"
+    ]
+   },
+   {
+    "name": "Rust",
+    "pct": 3
+   },
+   {
+    "name": "Go",
+    "pct": 3,
+    "aliases": [
+     "golang"
+    ]
+   },
+   {
+    "name": "Ruby",
+    "pct": 2.5
+   },
+   {
+    "name": "Swift",
+    "pct": 2
+   },
+   {
+    "name": "PHP",
+    "pct": 2
+   },
+   {
+    "name": "TypeScript",
+    "pct": 2
+   },
+   {
+    "name": "Kotlin",
+    "pct": 1.2
+   },
+   {
+    "name": "HTML",
+    "pct": 2,
+    "clever": true
+   },
+   {
+    "name": "Haskell",
+    "pct": 1
+   },
+   {
+    "name": "Lua",
+    "pct": 0.8
+   },
+   {
+    "name": "Fortran",
+    "pct": 0.6
+   },
+   {
+    "name": "COBOL",
+    "pct": 0.6
+   },
+   {
+    "name": "Lisp",
+    "pct": 0.5
+   },
+   {
+    "name": "Prolog",
+    "pct": 0.3
+   },
+   {
+    "name": "Elixir",
+    "pct": 0.3
+   },
+   {
+    "name": "Zig",
+    "pct": 0.25
+   },
+   {
+    "name": "Erlang",
+    "pct": 0.2
+   },
+   {
+    "name": "APL",
+    "pct": 0.08
+   },
+   {
+    "name": "Brainfuck",
+    "pct": 0.15
+   },
+   {
+    "name": "Forth",
+    "pct": 0.07
+   },
+   {
+    "name": "Smalltalk",
+    "pct": 0.1
+   },
+   {
+    "name": "Befunge",
+    "pct": 0.03
+   }
+  ]
+ }
+]

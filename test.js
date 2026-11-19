@@ -25,3 +25,17 @@ for (const pr of PROMPTS) {
   assert(tiers.includes("clever"), pr.id + " no clever");
 }
 console.log("all tests passed;", PROMPTS.length, "prompts");
+// phonetic (sound-alike) matching
+assert.equal(m("dinosaur","kosmoseratops").answer.name, "Kosmoceratops");
+assert.equal(m("dinosaur","kosmoseratops").status, "typo");          // still needs a confirm
+assert.equal(m("dog","zolo").status, "none");                        // too short for phonetic
+assert.equal(m("gem","jeremeyevite").answer.name, "Jeremejevite");
+assert.equal(m("sea","sifonofore").answer.name, "Siphonophore");
+assert.equal(m("fruit","jim").status, "none");
+assert.equal(m("fruit","james").status, "none");                     // the "James method" gets nothing
+console.log("phonetic tests passed");
+// regression: common words must not sound-alike their way into rare answers
+for (const [id, w] of [["eucapital","photos"],["eucapital","followed"],["africa","commerce"],["africa","justin"],
+  ["boardgame","senate"],["gem","beneath"],["pasta","drive"],["bird","bought"],["language","friday"]])
+  assert.notEqual(m(id, w).status, "typo", `${w} should not match in ${id}`);
+console.log("anti-exploit regression passed");
